@@ -1,14 +1,28 @@
-## Feature lombok documentation
+# Enigma App
 
-- [Micronaut Project Lombok documentation](https://docs.micronaut.io/latest/guide/index.html#lombok)
+Simple app with Micronaut that gives you a wise advice
 
-- [https://projectlombok.org/features/all](https://projectlombok.org/features/all)
 
-## Feature spring documentation
+## Development instructions
 
-- [Micronaut Spring Framework Annotations documentation](https://micronaut-projects.github.io/micronaut-spring/latest/guide/index.html)
+Execute gradle build
+```
+./gradlew build
+```
 
-## Feature http-client documentation
+Access to the service
+```
+http://localhost:8886/enigma/advice/{your-name}
+```
 
-- [Micronaut Micronaut HTTP Client documentation](https://docs.micronaut.io/latest/guide/index.html#httpClient)
+```json
+{
+  "name": "Peter",
+  "advice": "I feel so miserable without you, it’s almost like having you here."
+}
+```
 
+
+## Micronaut documentation
+
+- [Micronaut documentation](https://docs.micronaut.io/latest/guide/index.html)
